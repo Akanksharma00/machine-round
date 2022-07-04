@@ -23,6 +23,7 @@ const Table = (props)=> {
         }
     }
 
+    
     const submitHandler = (event) => {
         event.preventDefault();
         const name = enteredName.current.value;
